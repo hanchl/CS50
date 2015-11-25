@@ -20,7 +20,7 @@ int main(void)
 		cout << i << endl;
 	}
 
-	selectSort(v);
+	mergeSort(v);
 	
 	cout << "after sort:\n";
 	for (auto i : v)
