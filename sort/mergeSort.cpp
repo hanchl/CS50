@@ -14,12 +14,15 @@ int mergeSort(vector<int> & v)
 int sort(vector<int>::iterator v, size_t n)
 {
 	if (n < 2)
+	{
 		return 0;
+	}
 	else
 	{
 		sort(v, n / 2);
 		sort(v + n / 2,n - n / 2);
 		merge(v, v + n / 2, v + n / 2, v + n);
+		return 0;
 	}
 }
 
