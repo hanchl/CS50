@@ -27,6 +27,11 @@ int main(void)
 	{
 		cout << i << endl;
 	}
-
+	int d = 0;
+	char a = 'a';
+	int b = 1, c = 2;
+	
+	//cout << &a << endl << &b << endl;
+	printf("%x   \n%x   \n%x  \n%d", &a, &b, &c,sizeof(int));
 	return 0;
 }
